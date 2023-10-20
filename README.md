@@ -20,6 +20,6 @@ Get ready for a battle of wits, and stay tuned for more thrilling projects on th
 A$ | ©-2023
 
 Gameplay View ☟
-<p align="center"><img src="" width="900" alt="game_play"></p><br>
-<p align="center"><img src="" width="900" alt="game_play"></p><br>
-<p align="center"><img src="" width="900" alt="game_play"></p><br>
+<p align="center"><img src="https://github.com/Amidu99/TicTacToe-Game-v1.0.0/assets/125728431/51833db5-1c24-40d9-a893-25ba1f90908c" width="900" alt="game_play"></p><br>
+<p align="center"><img src="https://github.com/Amidu99/TicTacToe-Game-v1.0.0/assets/125728431/025842f3-eeb8-494c-ada0-dc2c8ea63921" width="900" alt="game_play"></p><br>
+<p align="center"><img src="https://github.com/Amidu99/TicTacToe-Game-v1.0.0/assets/125728431/199db874-5aa8-41fa-9c0a-bf55273087f5" width="900" alt="game_play"></p><br>
