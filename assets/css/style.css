@@ -7,11 +7,16 @@ body{
 }
 body>h2{
     color: white;
+    font-size: 2em;
     width: fit-content;
     position: absolute;
-    left: calc(50% - 88px);
+    left: calc(50% - 118px);
     top: 20px;
     text-align: center;
+    text-shadow: 0 0 5px #65c665,
+    0 0 5px #0ad004,
+    0 0 8px #0ad004,
+    0 0 15px #06ff00;
     font-family: 'Nosifer', sans-serif;
 }
 td {
@@ -23,6 +28,10 @@ td {
     font-size: 70px;
     cursor: pointer;
     color: #ffffff;
+    text-shadow: 0 0 2px #ffffff,
+    0 0 4px rgba(255, 255, 255, 0.95),
+    0 0 6px rgba(255, 255, 255, 0.9),
+    0 0 8px rgba(255, 255, 255, 0.8);
     font-family: 'Playpen Sans', cursive;
 }
 table {
@@ -66,10 +75,18 @@ table tr:last-child td:nth-child(3){
     padding-bottom: 50px;
     text-align: center;
     border-radius: 10px;
-    color: #ee0c0c;
+    color: #f35252;
+    text-shadow: 0 0 2px #d22a2a,
+    0 0 4px #c52020,
+    0 0 6px #c51818,
+    0 0 8px #bd0707;
     font-size: 2em;
     font-family: 'Nosifer', sans-serif;
     background-color: rgba(142, 145, 142, 0.4);
+    box-shadow: 0 0 5px #8ae38a,
+    0 0 7px #8e918e,
+    0 0 10px #8e918e,
+    0 0 15px #8ae38a;
 }
 .selectSym{
     display: none;
@@ -77,28 +94,49 @@ table tr:last-child td:nth-child(3){
     width: 250px;
     top: calc(50% - 130px);
     left: calc(50% - 125px);
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 50px;
     border-radius: 10px;
     text-align: center;
-    color: #ffa500;
-    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 0 0 2px #de9002,
+    0 0 4px #ec9d0e,
+    0 0 6px #ffa500,
+    0 0 8px #fab230;
+    font-size: 1.9em;
     font-family: 'Nosifer', sans-serif;
     background-color: rgba(255, 165, 0, 0.15);
+    box-shadow: 0 0 5px #de9002,
+    0 0 5px #ec9d0e,
+    0 0 7px #ffa500,
+    0 0 10px #fab230;
 }
 .selectSym button{
-    font-family: 'Nosifer', sans-serif;
+    font-family: 'Playpen Sans', cursive;
     cursor: pointer;
-    font-size:  50px;
-    width: 64px;
-    padding-top: 8px;
+    font-size:  44px;
+    width: 54px;
+    padding: 2px;
     border-radius: 5px;
     color: #ffffff;
+    text-shadow: 0 0 2px #ffffff,
+    0 0 3px rgba(255, 255, 255, 0.95),
+    0 0 4px rgba(255, 255, 255, 0.9),
+    0 0 5px rgba(255, 255, 255, 0.8);
     background-color: rgb(255, 165, 0);
+    box-shadow: 0 0 1px #de9002,
+    0 0 2px #ec9d0e,
+    0 0 3px #ffa500,
+    0 0 5px #fab230;
     filter: grayscale(30%);
 }
 .selectSym button:hover{
+    box-shadow: 0 0 5px #de9002,
+    0 0 5px #ec9d0e,
+    0 0 7px #ffa500,
+    0 0 10px #fab230;
     filter: grayscale(0);
+    scale: 1.15;
 }
 .selectSym  button:first-of-type {
     margin-right: 10px;
@@ -120,8 +158,13 @@ table tr:last-child td:nth-child(3){
     border-radius: 25px;
     background-color: rgb(138, 227, 138);
     border: 2px solid #0ab705;
+    box-shadow: 0 0 1px #65c665,
+    0 0 2px #0ad004,
+    0 0 3px #0ad004,
+    0 0 5px #06ff00;
 }
 #btn_return:hover{
+    color: #ffffff;
     background-color: #0ad004;
     box-shadow: 0 0 5px #65c665,
     0 0 5px #0ad004,
