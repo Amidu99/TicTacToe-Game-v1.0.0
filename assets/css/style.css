@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+body{
+    margin: 0;
+    background-color: #1a1d20;
+}
+body>h2{
+    color: white;
+    width: fit-content;
+    position: absolute;
+    left: calc(50% - 88px);
+    top: 20px;
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+}
+td {
+    border: 3px solid #ffffff;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Playpen Sans', cursive;
+}
+table {
+    border-collapse: collapse;
+    position:   absolute;
+    left: calc(50% - 156px);
+    top: calc(50% - 156px);
+}
+table tr:first-child td {
+    border-top: 0;
+}
+table tr:first-child td:first-child{
+    border-top-left-radius: 10px;
+}
+table tr:first-child td:nth-child(3){
+    border-top-right-radius: 10px;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child {
+    border-left: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+}
+table tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+table tr:last-child td:nth-child(3){
+    border-bottom-right-radius: 10px;
+}
+.endgame {
+    display: none;
+    width:  200px;
+    position: absolute;
+    height: fit-content;
+    top: calc(50% - 87px);
+    left: calc(50% - 100px);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    color: #ee0c0c;
+    font-size: 2em;
+    font-family: 'Nosifer', sans-serif;
+    background-color: rgba(142, 145, 142, 0.4);
+}
+.selectSym{
+    display: none;
+    position: absolute;
+    width: 250px;
+    top: calc(50% - 130px);
+    left: calc(50% - 125px);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffa500;
+    font-size: 2em;
+    font-family: 'Nosifer', sans-serif;
+    background-color: rgba(255, 165, 0, 0.15);
+}
+.selectSym button{
+    font-family: 'Nosifer', sans-serif;
+    cursor: pointer;
+    font-size:  50px;
+    width: 64px;
+    padding-top: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(255, 165, 0);
+    filter: grayscale(30%);
+}
+.selectSym button:hover{
+    filter: grayscale(0);
+}
+.selectSym  button:first-of-type {
+    margin-right: 10px;
+}
+.selectSym  button:last-of-type {
+    margin-left: 10px;
+}
+#btn_return{
+    cursor: pointer;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: calc(50% + 175px);
+    left: calc(50% - 41px);
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 25px;
+    background-color: rgb(138, 227, 138);
+    border: 2px solid #0ab705;
+}
+#btn_return:hover{
+    background-color: #0ad004;
+    box-shadow: 0 0 5px #65c665,
+    0 0 5px #0ad004,
+    0 0 8px #0ad004,
+    0 0 15px #06ff00;
+}
